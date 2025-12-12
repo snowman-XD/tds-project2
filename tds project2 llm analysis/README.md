@@ -6,11 +6,10 @@ colorTo: blue
 sdk: docker
 pinned: false
 app_port: 7860
----
+--
 
 # LLM Analysis - Autonomous Quiz Solver Agent
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Python 3.12+](https://img.shields.io/badge/python-3.12+-blue.svg)](https://www.python.org/downloads/)
 [![FastAPI](https://img.shields.io/badge/FastAPI-0.121.3+-green.svg)](https://fastapi.tiangolo.com/)
 
@@ -29,7 +28,7 @@ An intelligent, autonomous agent built with LangGraph and LangChain that solves 
 - [Tools &amp; Capabilities](#tools--capabilities)
 - [Docker Deployment](#docker-deployment)
 - [How It Works](#how-it-works)
-- [License](#license)
+  
 
 ## 🔍 Overview
 
@@ -109,11 +108,6 @@ LLM-Analysis-TDS-Project-2/
 - Git
 
 ### Step 1: Clone the Repository
-
-```bash
-git clone https://github.com/saivijayragav/LLM-Analysis-TDS-Project-2.git
-cd LLM-Analysis-TDS-Project-2
-```
 
 ### Step 2: Install Dependencies
 
@@ -378,14 +372,13 @@ The agent follows this loop:
 6. **Playwright for Scraping**: Handles JavaScript-rendered pages that `requests` cannot
 7. **uv for Dependencies**: Fast package resolution and installation
 
-## 📄 License
-
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
-
 ---
-
-**Author**: Sai Vijay Ragav 
-**Course**: Tools in Data Science (TDS)
-**Institution**: IIT Madras
-
-For questions or issues, please open an issue on the [GitHub repository](https://github.com/saivijayragav/LLM-Analysis-TDS-Project-2).
+---
+title: LLM Analysis Quiz Solver
+emoji: 🏃
+colorFrom: red
+colorTo: blue
+sdk: docker
+pinned: false
+app_port: 7860
+--
